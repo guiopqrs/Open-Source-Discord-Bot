@@ -14,5 +14,8 @@ Please Learn All The Basics Of Javascript And Proceed Learning NodeJS
 
 ⚡ Discord: Guin#8110 
 
+### Issues And Suggestions
+If You Have Any Suggestions Please Contact Me On Discord Or Open Issue Here On Github :)
+
 ### Note
 If You Want To Learn How To Code A Bot Yourself You Must Learn Javascript First And Copying And Pasting This Code Is Not Necessary.
