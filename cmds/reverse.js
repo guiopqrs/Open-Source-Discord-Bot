@@ -1,14 +1,13 @@
 const Discord = require("discord.js");
 
-module.exports.run = async execute(client, msg, args) {
+module.exports.run = async (client, message, args) {
   	if (!args[0]) return msg.channel.send("Error, no message");
-  	let res = args.join(" ");
+  	let res = args.slice(1).join(" ");
   	let rev = res.split('').reverse().join('');
   	msg.channel.send(rev);
 }
 
 module.exports.help = {
     name: "reverse",
-    description: "reverse your message",
-    usage: "reverse [message]",
+    aliases: ["rv"]
 }
