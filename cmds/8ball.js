@@ -2,7 +2,7 @@ const Discord = require("discord.js")
 const config = require("./config.json")
 
 module.exports.run = async (client, message, args) => {
-	let answers = config.8ball_options
+	let answers = config.options;
 	
 	let rand = answers[Math.floor(Math.random() * answers.length)]
 	
