@@ -1,4 +1,9 @@
 {
   "token": "Your_Wonderful_Token",
-  "prefix": "Your_Wonderful_Prefix"
+  "prefix": "Your_Wonderful_Prefix",
+
+//other settings...
+
+  //8ball Options
+  "options": ["yes", "no", "idk"]
 }
