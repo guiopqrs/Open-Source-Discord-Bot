@@ -4,6 +4,6 @@
 
 //other settings...
 
-  //8ball Options:
+  //8ball Options
   "options": ["yes", "no", "idk"]
 }
