@@ -8,13 +8,13 @@ This Code Is <code><img height="15" src="https://raw.githubusercontent.com/githu
 Please Learn All The Basics Of Javascript And Proceed Learning NodeJS 
 
 ### Credits
-🌱 Author: Guin8110
+🌱 Author: Guin8110 and RKAbdul
 
 💻 Github: https://github.com/Guin8110
 
 🥅 Goal: Help People Stuck In Coding Bots
 
-⚡ Discord: Guin#8110 
+⚡ Discord: Guin#6114 | RKAbdul#0001
 
 ### Issues And Suggestions
 If You Have Any Suggestions Please Contact Me On Discord Or Open Issue Here On Github :)
