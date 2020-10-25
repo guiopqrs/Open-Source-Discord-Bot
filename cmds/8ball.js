@@ -1,12 +1,8 @@
 const Discord = require("discord.js")
+const config = require("./config.json")
 
 module.exports.run = async (client, message, args) => {
-	let answers = [
-	"Yes",
-	"No",
-	"Maybe",
-	"I Think"
-	] //You Can Add More!
+	let answers = config.8ball_options
 	
 	let rand = answers[Math.floor(Math.random() * answers.length)]
 	
