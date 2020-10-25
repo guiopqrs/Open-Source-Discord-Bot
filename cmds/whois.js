@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
-module.exports.run = async execute(client, msg, args) {
-      let member = msg.mentions.members.first() || msg.guild.members.cache.get(args[0]) || msg.member;
+module.exports.run = async (bot, message, args) {
+      let member = message.mentions.members.first() || msg.guild.members.cache.get(args[0]) || msg.member;
       let user = member.user;
       let joineddaysago = Math.floor((Date.now() - member.joinedAt) / 86400000);
       let createddaysago = Math.floor((Date.now() - user.createdAt) / 86400000);
@@ -20,7 +20,5 @@ module.exports.run = async execute(client, msg, args) {
 
 module.exports.help = {
     name: "whois",
-    description: "Show's information about a user.\nAliases:\n - {prefix}userinfo [@user/ID]",
-    usage: "whois [@user/ID]",
     aliases: ["userinfo"]
 }
